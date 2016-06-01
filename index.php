@@ -34,23 +34,25 @@
             </a>
           </div>
           <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a class="nav-link" href="#about">
-                  About
-                </a>
-              </li>
-              <li>
-                <a class="nav-link" href="#portfolio">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a class="nav-link" href="#contact">
-                  Contact
-                </a>
-              </li>
-            </ul>
+          	<div class="container-fluid">
+	            <ul class="nav navbar-nav navbar-right">
+	              <li>
+	                <a class="nav-link" href="#about">
+	                  About
+	                </a>
+	              </li>
+	              <li>
+	                <a class="nav-link" href="#portfolio">
+	                  Portfolio
+	                </a>
+	              </li>
+	              <li>
+	                <a class="nav-link" href="#contact">
+	                  Contact
+	                </a>
+	              </li>
+	            </ul>
+            </div>
           </div>
         </nav>
 
@@ -74,36 +76,31 @@
               Web Developer - PHP - NodeJS
             </h4>
             <div class="cos-xs-12 col-sm-12">
-              <button>
-                <a href="https://plus.google.com/u/0/+RabibAhmad" target="_blank">
-                  <i class="fa fa-google-plus fa-2x font-aws" aria-hidden="true">
-                  </i>
-                </a>
-              </button>
-              <button>
-                <a href="https://github.com/rabibsust" target="_blank">
-                  <i class="fa fa-github fa-2x font-aws" aria-hidden="true">
-                  </i>
-                </a>
-              </button>
-              <button>
-                <a href="https://twitter.com/rabibsust" target="_blank">
-                  <i class="fa fa-twitter fa-2x font-aws" aria-hidden="true">
-                  </i>
-                </a>
-              </button>
-              <button>
-                <a href="https://bd.linkedin.com/in/ahmad-jamaly-rabib-9bb05563" target="_blank">
+            		<a href="https://bd.linkedin.com/in/ahmad-jamaly-rabib-9bb05563" target="_blank"  class="btn btn-default">
                   <i class="fa fa-linkedin fa-2x font-aws" aria-hidden="true">
                   </i>
                 </a>
-              </button>
-              <button>
-                <a href="http://stackoverflow.com/users/3172218/rabib" target="_blank">
+
+                <a href="http://stackoverflow.com/users/3172218/rabib" target="_blank"  class="btn btn-default">
                   <i class="fa fa-stack-overflow fa-2x font-aws" aria-hidden="true">
                   </i>
                 </a>
-              </button>
+                
+                <a href="https://github.com/rabibsust" target="_blank"  class="btn btn-default">
+                  <i class="fa fa-github fa-2x font-aws" aria-hidden="true">
+                  </i>
+                </a>
+                
+                <a href="https://plus.google.com/u/0/+RabibAhmad" target="_blank" class="btn btn-default">
+                  <i class="fa fa-google-plus fa-2x font-aws" aria-hidden="true">
+                  </i>
+                </a>
+
+                <a href="https://twitter.com/rabibsust" target="_blank"  class="btn btn-default">
+                  <i class="fa fa-twitter fa-2x font-aws" aria-hidden="true">
+                  </i>
+                </a>
+
             </div>
           </div>
         </div>
@@ -157,7 +154,7 @@
             </div>
             <div class="cos-xs-12 col-sm-5 col-md-5 col-lg-5">
               <h3 class="contact-texts">
-                Although I am a lazy person but you can always contact with me. You can check my resume and ask for any project. I am here to solve your problems. I will reply you A.S.A.P. Happy Coding.
+                You can always contact with me. You can check my profile and ask for any project. I am here to solve your problems. I will reply you A.S.A.P. Happy Coding.
               </h3>
             </div>
           </div>
@@ -171,9 +168,9 @@
         </div>
       </div>
     </body>
-    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'>
-    </script>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'>
+    </script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'>
     </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'>
     </script>
